@@ -32,7 +32,7 @@ public class App {
                 } else if (Arrays.equals(new Integer[] { 29, 3675, 41 }, keyCodes)) {
                     context.moveCursorToNextScreen();
                     // } else {
-                    // System.out.println(Arrays.toString(keyCodes));
+                    // System.out.println("Unmatched Codes: `" + Arrays.toString(keyCodes));
                 }
             }
         });
